@@ -1,0 +1,23 @@
+.Footer {
+  color: $gray-500;
+  font-size: 14px;
+  text-align: center;
+  padding: 15px;
+  background-color: $primary-2;
+
+  &-Social {
+    margin: 0 0 10px 0;
+    padding: 0;
+    text-align: center;
+
+    li {
+      list-style: none;
+      display: inline-block;
+      margin: 0 5px;
+    }
+  }
+
+  &-Copyright {
+    margin-bottom: 0;
+  }
+}

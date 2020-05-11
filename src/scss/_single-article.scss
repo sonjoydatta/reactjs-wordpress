@@ -1,0 +1,42 @@
+.SingleArticle {
+
+  &-CatTitle {
+    color: $white;
+    padding: 3px 15px;
+    background-color: $primary;
+  }
+
+  &-Heading {
+    font-size: 28px;
+    margin: 18px 0 12px 0;
+  }
+
+  &-Meta {
+    color: $secondary;
+    font-size: 15px;
+  }
+
+  &-Media {
+    margin-top: 22px;
+
+    &__CaptionText {
+      color: $secondary;
+      font-size: 14px;
+      font-style: italic;
+      text-align: center;
+
+      p {
+        margin-top: 10px;
+      }
+    }
+  }
+
+  &-Content {
+    margin-top: 30px;
+    margin-bottom: 50px;
+
+    p {
+      color: $dark;
+    }
+  }
+}

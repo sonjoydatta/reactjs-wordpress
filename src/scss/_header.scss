@@ -1,0 +1,47 @@
+.Header {
+
+  &-BrandArea {
+    padding: 15px 0;
+    @include flexbox();
+    @include align-items(middle);
+
+    &__Logo {
+      max-width: 125px;
+
+      @include media-breakpoint-down(lg) {
+        max-width: 80px;
+      }
+    }
+
+    .Ads {
+      margin-left: auto;
+    }
+  }
+
+  .nav {
+
+    &bar {
+
+      &-toggler {
+        border: 0;
+
+        &:hover {
+          outline: none;
+        }
+      }
+    }
+
+    &-link {
+      color: $primary-2 !important;
+      font-size: 18px;
+      font-weight: 800;
+      padding-left: 15px !important;
+      padding-right: 15px !important;
+
+      &:hover,
+      &.active {
+        color: $primary !important;
+      }
+    }
+  }
+}
